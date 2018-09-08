@@ -1,3 +1,5 @@
+
+
 var map;
 
 let styles = [
@@ -194,7 +196,7 @@ let styles = [
         ]
     },
 ];
- 
+
 function initMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
@@ -203,13 +205,13 @@ function initMap() {
         fillColor: 'green',
         strokeWeight: 1,
         styles: styles,
-       
+
       });
 
     map.data.loadGeoJson(
       'assets/js/aus_lga.geojson');
 
-      
+
     map.data.setStyle({
         strokeColor: '#bfbfbf',
             strokeOpacity:.8,
@@ -252,19 +254,20 @@ function initMap() {
         });
 
         cityCircle.addListener('click', function() {
-            alert(this.name);
+          new ModalHandler();
+
         });
 
-        cityCircle.addListener('mouseover', function(event) {
-            this.data.revertStyle();
-            this.data.overrideStyle(event.feature, {strokeWeight: 8});
-        });
+        // cityCircle.addListener('mouseover', function(event) {
+        //     this.data.revertStyle();
+        //     this.data.overrideStyle(event.feature, {strokeWeight: 8});
+        // });
+        //
+        // cityCircle.addListener('mouseout', function(event) {
+        //     this.data.revertStyle();
+        // });
 
-        cityCircle.addListener('mouseout', function(event) {
-            this.data.revertStyle();
-        });
 
-        
       }
 }
 

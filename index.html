@@ -74,18 +74,16 @@
       <div class="header item">
         Save Lives With Data
       </div>
-      
       <a href="#locations" class="item">Location</a>
       <a href="#types" class="item">Types</a>
       <a href="#all" class="item">All</a>
-      
     </div>
   </div>
 
   <div class="ui container-fluid" id="locations">
-      <br><br><br><br>
-      <div id="map"></div>
-      <br><br><br><br>
+    <br><br><br><br>
+    <div id="map"></div>
+    <br><br><br><br>
   </div>
 
   <div class="ui text container" id="types">
@@ -95,7 +93,6 @@
         <div class="ui labeled icon vertical menu">
           <a class="item"><i class="twitter icon"></i> Tweet</a>
           <a class="item"><i class="facebook icon"></i> Share</a>
-          <a class="item"><i class="mail icon"></i> E-mail</a>
         </div>
       </div>
       <p>
@@ -110,7 +107,7 @@
 
   <div class="ui text container" id="changes">
     <article>
-      <h2 class="ui header">Changes of Diseases from 1970 to 2016</h2>
+      <h2 class="ui header">Mortality vs. Incidence of common cancers</h2>
       <p>
     
       </p>
@@ -154,7 +151,7 @@
         </div>
       </div>
       <div class="ui inverted section divider"></div>
-      <img src="assets/images/logo.png" class="ui centered mini image" alt="logo">
+      <h4 class="ui header">Save Lives with Data</h4>
       <div class="ui horizontal inverted small divided link list">
         <a class="item" href="#">Contact Us</a>
         <a class="item" href="#">Terms and Conditions</a>
@@ -172,75 +169,79 @@
 
   <script>
   
-var width = 500, height = 500;
+    var width = 500, height = 500;
 
-var svg = d3.select("#all-charts")
+    var svg = d3.select("#all-charts")
             .append("svg")
             .attr("height", height)
             .attr("width", width)
             .append("g")
             .attr("transform", "translate(0,0)");
 
-var radiusScale = d3.scaleSqrt().domain([0, 815]).range([1, 75])
+    var radiusScale = d3.scaleSqrt().domain([3366, 4543]).range([35, 140])
 
-var simulation = d3.forceSimulation()
-  .force("x", d3.forceX(width / 2).strength(0.05))
-  .force("y", d3.forceY(width / 2).strength(0.05))
-  .force("collade", d3.forceCollide(function(d) {
-    return radiusScale(d.count) + 1;
-  }));
+    var simulation = d3.forceSimulation()
+      .force("x", d3.forceX(width / 2).strength(0.05))
+      .force("y", d3.forceY(width / 2).strength(0.05))
+      .force("collade", d3.forceCollide(function(d) {
+        return radiusScale(d.count) + 1;
+      }));
 
-d3.queue()
-  .defer(d3.csv, "../assets/csv/sample.csv")
-  .await(ready);
+    d3.queue()
+      .defer(d3.csv, "../assets/csv/total.csv")
+      .await(ready);
 
-function ready(error, datapoints) {
-    var bubbles = svg.selectAll(".artist")
-        .data(datapoints)
-        .enter().append("circle")
-        .attr("class", "artist")
-        .attr("r", function(d){
-          return radiusScale(d.count)
-        })
-        .attr("fill", function(d){
-          return d.color
-        })
-        .attr("stroke", function(d){
-          if(d.type == "incidence")
-          return "#000"
-          else 
-          return "bisque"
-        })
-        .attr("stroke-width", 1);
+  function ready(error, datapoints) {
+      var bubbles = svg.selectAll(".artist")
+          .data(datapoints)
+          .enter().append("circle")
+          .attr("class", "artist")
+          .attr("r", function(d){
+            return radiusScale(d.count)
+          })
+          .attr("fill", function(d){
+            return d.color
+          })
+          .attr("stroke", function(d){
+            if(d.type == "incidence")
+            return "#000"
+            else 
+            return "bisque"
+          })
+          .attr("stroke-width", 1);
 
-    simulation.nodes(datapoints)
-      .on('tick', ticked);
+      simulation.nodes(datapoints)
+        .on('tick', ticked);
 
-    var texts = svg.selectAll(null)
-        .data(datapoints)
-        .enter()
-        .append('text')
-        .text(d => d.cancer)
-        .attr('color', 'black')
-        
+      var texts = svg.selectAll(null)
+          .data(datapoints)
+          .enter()
+          .append('text')
+          .text(d => d.cancer)
+          .attr('color', 'black')
+          .attr('font-weight', 'bold')
+          
 
-    function ticked() {
-      bubbles
-        .attr("cx", function(d) {
-          return d.x
-        })
-        .attr("cy", function(d) {
-          return d.y
-        });
-
-        texts.attr('x', (d) => {
-            return d.x - 15
-        })
-        .attr('font-size', 15)
-        .attr('y', (d) => {
+      function ticked() {
+        bubbles
+          .attr("cx", function(d) {
+            return d.x
+          })
+          .attr("cy", function(d) {
             return d.y
-        });
-    }
+          });
+
+          texts.attr('x', (d) => {
+              return d.x - 35
+          })
+          .attr('font-size', 15)
+          .attr('y', (d) => {
+              return d.y
+          })
+          .style("font-size", function() {
+            return d3.select(this).attr("data-scale") + "px";
+          });
+        }
 }
 
   </script>

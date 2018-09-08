@@ -1,0 +1,11 @@
+cancer,count,color,type
+Breast Cancer,3366,#9caf84,incidence
+Colorectal Cancer,3879,#beccae,incidence
+Lung Cancer,3749,#aaaaaa,incidence
+Melanoma Cancer,3497,#ee9586,incidence
+Prostate Cancer,4543,#d84b2a,incidence
+Breast Cancer,470,#9caf84,mortality
+Colorectal Cancer,977,#beccae,mortality
+Lung Cancer,1627,#aaaaaa,mortality
+Melanoma Cancer,332,#ee9586,mortality
+Prostate Cancer,605,#d84b2a,mortality

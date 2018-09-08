@@ -87,8 +87,9 @@
   </div>
 
   <div class="ui text container" id="types">
+    <br><br><br>
     <article>
-      <h2 class="ui header">Diseases that are commonly catched by Aged Group</h2>
+      <h2 class="ui header">Mortality vs. Incidence of common cancers</h2>
       <div class="overlay">
         <div class="ui labeled icon vertical menu">
           <a class="item"><i class="twitter icon"></i> Tweet</a>
@@ -96,29 +97,17 @@
         </div>
       </div>
       <p>
-  
-      </p>
-      <p>
         Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to 
         a cap in spending in August, so proposed increases in categories like education and energy require cuts in other areas.
       </p>
-    </article>
-  </div>
-
-  <div class="ui text container" id="changes">
-    <article>
-      <h2 class="ui header">Mortality vs. Incidence of common cancers</h2>
       <p>
-    
-      </p>
-      <p>
-        Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to 
-        a cap in spending in August, so proposed increases in categories like education and energy require cuts in other areas.
+        <div id="type-charts"></div>
       </p>
     </article>
   </div>
 
   <div class="ui text container" id="all">
+    <br><br><br>
     <article>
       <h2 class="ui header">Compilation of common cancers</h2>
       
@@ -168,8 +157,8 @@
     async defer></script>
 
   <script>
-  
-    var width = 500, height = 500;
+    // all
+    var width = 500, height = 800;
 
     var svg = d3.select("#all-charts")
             .append("svg")
@@ -242,7 +231,87 @@
             return d3.select(this).attr("data-scale") + "px";
           });
         }
-}
+    }
+
+    // all end 
+    
+    // types
+    var width1 = 500, height1 = 800;
+
+    var svg1 = d3.select("#type-charts")
+            .append("svg")
+            .attr("height", height1)
+            .attr("width", width1)
+            .append("g")
+            .attr("transform", "translate(0,0)");
+
+    var radiusScale1 = d3.scaleSqrt().domain([470, 3165]).range([10, 90])
+ 
+    var simulation1 = d3.forceSimulation()
+      .force("x", d3.forceX(width1 / 2).strength(0.05))
+      .force("y", d3.forceY(width1 / 2).strength(0.05))
+      .force("collade", d3.forceCollide(function(d1) {
+        return radiusScale(d1.count) + 1;
+      }));
+
+    d3.queue()
+      .defer(d3.csv, "../assets/csv/types.csv")
+      .await(readyTypes);
+
+  function readyTypes(error, datapoints1) {
+      var bubbles1 = svg.selectAll(".artist")
+          .data(datapoints1)
+          .enter().append("circle")
+          .attr("class", "artist")
+          .attr("r", function(d1){
+            return radiusScale(d1.count)
+          })
+          .attr("fill", function(d1){
+            return d1.color
+          })
+          .attr("stroke", function(d){
+            if(d1.type == "incidence")
+            return "#000"
+            else 
+            return "bisque"
+          })
+          .attr("stroke-width", 1);
+
+      simulation1.nodes(datapoints1)
+        .on('tick', ticked1);
+
+      var texts1 = svg1.selectAll(null)
+          .data(datapoints1)
+          .enter()
+          .append('text')
+          .text(d1 => d1.cancer)
+          .attr('color', 'black')
+          .attr('font-weight', 'bold')
+          
+
+      function ticked1() {
+        bubbles1
+          .attr("cx", function(d1) {
+            return d1.x
+          })
+          .attr("cy", function(d1) {
+            return d1.y
+          });
+
+          texts1.attr('x', (d1) => {
+              return d1.x - 35
+          })
+          .attr('font-size', 15)
+          .attr('y', (d1) => {
+              return d1.y
+          })
+          .style("font-size", function() {
+            return d3.select(this).attr("data-scale") + "px";
+          });
+        }
+    }
+
+    // types end 
 
   </script>
 </body>

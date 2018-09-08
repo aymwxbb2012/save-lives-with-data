@@ -35,6 +35,7 @@
   <script src="semantic/dist/components/transition.js"></script>
   <script src="semantic/dist/components/dropdown.js"></script>
   <script src="semantic/dist/components/visibility.js"></script>
+  <script src="assets/js/ModalHandler.js"></script>
   <script>
   $(document)
     .ready(function() {
@@ -97,7 +98,7 @@
         </div>
       </div>
       <p>
-        Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to 
+        Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to
         a cap in spending in August, so proposed increases in categories like education and energy require cuts in other areas.
       </p>
       <p>
@@ -110,9 +111,9 @@
     <br><br><br>
     <article>
       <h2 class="ui header">Compilation of common cancers</h2>
-      
+
       <p>
-        Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to 
+        Discretionary spending is controlled by the annual budget process. The White House and Congress agreed to
         a cap in spending in August, so proposed increases in categories like education and energy require cuts in other areas.
       </p>
       <p>
@@ -120,7 +121,7 @@
       </p>
     </article>
   </div>
-    
+
 
   <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container">
@@ -148,11 +149,21 @@
       </div>
     </div>
   </div>
+
+  <div class="modal modal--lec" aria-label="hidden">
+    <div class="modal__wrap">
+        <button type="button" name="button" class="modal__btn--close modal__close-btn">X</button>
+        <!-- donot delete the button-->
+      <h3 class="modal__title">Put Any content you want</h3>
+
+
+    </div>
+  </div>
   <script src="assets/js/main.js"></script>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
 
-  
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpIIyHYHLN4HBDb0hAWihTQ8el0C6Rvsw&callback=initMap"
     async defer></script>
 
@@ -194,7 +205,7 @@
           .attr("stroke", function(d){
             if(d.type == "incidence")
             return "#000"
-            else 
+            else
             return "bisque"
           })
           .attr("stroke-width", 1);
@@ -209,7 +220,7 @@
           .text(d => d.cancer)
           .attr('color', 'black')
           .attr('font-weight', 'bold')
-          
+
 
       function ticked() {
         bubbles
@@ -233,8 +244,8 @@
         }
     }
 
-    // all end 
-    
+    // all end
+
     // types
     var width1 = 500, height1 = 800;
 
@@ -246,7 +257,7 @@
             .attr("transform", "translate(0,0)");
 
     var radiusScale1 = d3.scaleSqrt().domain([470, 3165]).range([10, 90])
- 
+
     var simulation1 = d3.forceSimulation()
       .force("x", d3.forceX(width1 / 2).strength(0.05))
       .force("y", d3.forceY(width1 / 2).strength(0.05))
@@ -272,7 +283,7 @@
           .attr("stroke", function(d){
             if(d1.type == "incidence")
             return "#000"
-            else 
+            else
             return "bisque"
           })
           .attr("stroke-width", 1);
@@ -287,7 +298,7 @@
           .text(d1 => d1.cancer)
           .attr('color', 'black')
           .attr('font-weight', 'bold')
-          
+
 
       function ticked1() {
         bubbles1
@@ -311,7 +322,7 @@
         }
     }
 
-    // types end 
+    // types end
 
   </script>
 </body>

@@ -1,0 +1,101 @@
+id,lga,lat,lng,cancer,count,type,color
+1,Aurukun,-13.3572661,141.7280661,Breast,0,incidence,#382e07
+51,Aurukun,-13.3572661,141.7280661,Breast,0,mortality,#382e07
+6,Balonne,-28.4646073,148.1892921,Breast,3,incidence,#382e07
+56,Balonne,-28.4646073,148.1892921,Breast,0,mortality,#382e07
+11,Banana,-24.472222,150.128056,Breast,10,incidence,#382e07
+61,Banana,-24.472222,150.128056,Breast,2,mortality,#382e07
+16,Barcaldine,-23.5563211,145.293339,Breast,2,incidence,#382e07
+66,Barcaldine,-23.5563211,145.293339,Breast,0,mortality,#382e07
+21,Barcoo,-25.0312277,142.3613378,Breast,0,incidence,#382e07
+71,Barcoo,-25.0312277,142.3613378,Breast,0,mortality,#382e07
+26,Blackall Tambo,-24.6826316,145.8468053,Breast,4,incidence,#382e07
+76,Blackall Tambo,-24.6826316,145.8468053,Breast,0,mortality,#382e07
+31,Boulia,-22.911306,139.910444,Breast,0,incidence,#382e07
+81,Boulia,-22.911306,139.910444,Breast,0,mortality,#382e07
+36,Brisbane,-27.4697707,153.0251235,Breast,708,incidence,#382e07
+86,Brisbane,-27.4697707,153.0251235,Breast,113,mortality,#382e07
+41,Bulloo,-27.8166507,142.0215415,Breast,0,incidence,#382e07
+91,Bulloo,-27.8166507,142.0215415,Breast,0,mortality,#382e07
+46,Bundaberg,-24.8669736,152.3509714,Breast,72,incidence,#382e07
+96,Bundaberg,-24.8669736,152.3509714,Breast,9,mortality,#382e07
+2,Aurukun,-13.3572661,141.7280661,Colorectal,0,incidence,#0ce5e7
+52,Aurukun,-13.3572661,141.7280661,Colorectal,0,mortality,#0ce5e7
+7,Balonne,-28.4646073,148.1892921,Colorectal,3,incidence,#0ce5e7
+57,Balonne,-28.4646073,148.1892921,Colorectal,1,mortality,#0ce5e7
+12,Banana,-24.472222,150.128056,Colorectal,11,incidence,#0ce5e7
+62,Banana,-24.472222,150.128056,Colorectal,5,mortality,#0ce5e7
+17,Barcaldine,-23.5563211,145.293339,Colorectal,2,incidence,#0ce5e7
+67,Barcaldine,-23.5563211,145.293339,Colorectal,1,mortality,#0ce5e7
+22,Barcoo,-25.0312277,142.3613378,Colorectal,1,incidence,#0ce5e7
+72,Barcoo,-25.0312277,142.3613378,Colorectal,0,mortality,#0ce5e7
+27,Blackall Tambo,-24.6826316,145.8468053,Colorectal,1,incidence,#0ce5e7
+77,Blackall Tambo,-24.6826316,145.8468053,Colorectal,1,mortality,#0ce5e7
+32,Boulia,-22.911306,139.910444,Colorectal,0,incidence,#0ce5e7
+82,Boulia,-22.911306,139.910444,Colorectal,0,mortality,#0ce5e7
+37,Brisbane,-27.4697707,153.0251235,Colorectal,661,incidence,#0ce5e7
+87,Brisbane,-27.4697707,153.0251235,Colorectal,220,mortality,#0ce5e7
+42,Bulloo,-27.8166507,142.0215415,Colorectal,0,incidence,#0ce5e7
+92,Bulloo,-27.8166507,142.0215415,Colorectal,0,mortality,#0ce5e7
+47,Bundaberg,-24.8669736,152.3509714,Colorectal,94,incidence,#0ce5e7
+97,Bundaberg,-24.8669736,152.3509714,Colorectal,34,mortality,#0ce5e7
+3,Aurukun,-13.3572661,141.7280661,Lung,1,incidence,#63e40e
+53,Aurukun,-13.3572661,141.7280661,Lung,0,mortality,#63e40e
+8,Balonne,-28.4646073,148.1892921,Lung,1,incidence,#63e40e
+58,Balonne,-28.4646073,148.1892921,Lung,1,mortality,#63e40e
+13,Banana,-24.472222,150.128056,Lung,7,incidence,#63e40e
+63,Banana,-24.472222,150.128056,Lung,4,mortality,#63e40e
+18,Barcaldine,-23.5563211,145.293339,Lung,4,incidence,#63e40e
+68,Barcaldine,-23.5563211,145.293339,Lung,3,mortality,#63e40e
+23,Barcoo,-25.0312277,142.3613378,Lung,0,incidence,#63e40e
+73,Barcoo,-25.0312277,142.3613378,Lung,0,mortality,#63e40e
+28,Blackall Tambo,-24.6826316,145.8468053,Lung,1,incidence,#63e40e
+78,Blackall Tambo,-24.6826316,145.8468053,Lung,1,mortality,#63e40e
+33,Boulia,-22.911306,139.910444,Lung,0,incidence,#63e40e
+83,Boulia,-22.911306,139.910444,Lung,0,mortality,#63e40e
+38,Brisbane,-27.4697707,153.0251235,Lung,428,incidence,#63e40e
+88,Brisbane,-27.4697707,153.0251235,Lung,302,mortality,#63e40e
+43,Bulloo,-27.8166507,142.0215415,Lung,0,incidence,#63e40e
+93,Bulloo,-27.8166507,142.0215415,Lung,0,mortality,#63e40e
+48,Bundaberg,-24.8669736,152.3509714,Lung,68,incidence,#63e40e
+98,Bundaberg,-24.8669736,152.3509714,Lung,50,mortality,#63e40e
+4,Aurukun,-13.3572661,141.7280661,Melanoma,0,incidence,#ee2f10
+54,Aurukun,-13.3572661,141.7280661,Melanoma,0,mortality,#ee2f10
+9,Balonne,-28.4646073,148.1892921,Melanoma,2,incidence,#ee2f10
+59,Balonne,-28.4646073,148.1892921,Melanoma,0,mortality,#ee2f10
+14,Banana,-24.472222,150.128056,Melanoma,8,incidence,#ee2f10
+64,Banana,-24.472222,150.128056,Melanoma,2,mortality,#ee2f10
+19,Barcaldine,-23.5563211,145.293339,Melanoma,1,incidence,#ee2f10
+69,Barcaldine,-23.5563211,145.293339,Melanoma,0,mortality,#ee2f10
+24,Barcoo,-25.0312277,142.3613378,Melanoma,0,incidence,#ee2f10
+74,Barcoo,-25.0312277,142.3613378,Melanoma,0,mortality,#ee2f10
+29,Blackall Tambo,-24.6826316,145.8468053,Melanoma,0,incidence,#ee2f10
+79,Blackall Tambo,-24.6826316,145.8468053,Melanoma,0,mortality,#ee2f10
+34,Boulia,-22.911306,139.910444,Melanoma,0,incidence,#ee2f10
+84,Boulia,-22.911306,139.910444,Melanoma,0,mortality,#ee2f10
+39,Brisbane,-27.4697707,153.0251235,Melanoma,740,incidence,#ee2f10
+89,Brisbane,-27.4697707,153.0251235,Melanoma,74,mortality,#ee2f10
+44,Bulloo,-27.8166507,142.0215415,Melanoma,0,incidence,#ee2f10
+94,Bulloo,-27.8166507,142.0215415,Melanoma,0,mortality,#ee2f10
+49,Bundaberg,-24.8669736,152.3509714,Melanoma,82,incidence,#ee2f10
+99,Bundaberg,-24.8669736,152.3509714,Melanoma,9,mortality,#ee2f10
+5,Aurukun,-13.3572661,141.7280661,Prostate,1,incidence,#382e07
+55,Aurukun,-13.3572661,141.7280661,Prostate,0,mortality,#382e07
+10,Balonne,-28.4646073,148.1892921,Prostate,4,incidence,#382e07
+60,Balonne,-28.4646073,148.1892921,Prostate,1,mortality,#382e07
+15,Banana,-24.472222,150.128056,Prostate,17,incidence,#382e07
+65,Banana,-24.472222,150.128056,Prostate,2,mortality,#382e07
+20,Barcaldine,-23.5563211,145.293339,Prostate,2,incidence,#382e07
+70,Barcaldine,-23.5563211,145.293339,Prostate,0,mortality,#382e07
+25,Barcoo,-25.0312277,142.3613378,Prostate,0,incidence,#382e07
+75,Barcoo,-25.0312277,142.3613378,Prostate,0,mortality,#382e07
+30,Blackall Tambo,-24.6826316,145.8468053,Prostate,2,incidence,#382e07
+80,Blackall Tambo,-24.6826316,145.8468053,Prostate,0,mortality,#382e07
+35,Boulia,-22.911306,139.910444,Prostate,0,incidence,#382e07
+85,Boulia,-22.911306,139.910444,Prostate,0,mortality,#382e07
+40,Brisbane,-27.4697707,153.0251235,Prostate,815,incidence,#382e07
+90,Brisbane,-27.4697707,153.0251235,Prostate,129,mortality,#382e07
+45,Bulloo,-27.8166507,142.0215415,Prostate,0,incidence,#382e07
+95,Bulloo,-27.8166507,142.0215415,Prostate,0,mortality,#382e07
+50,Bundaberg,-24.8669736,152.3509714,Prostate,136,incidence,#382e07
+100,Bundaberg,-24.8669736,152.3509714,Prostate,19,mortality,#382e07

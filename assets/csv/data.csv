@@ -1,0 +1,151 @@
+id	lga	lat	lng	 Breast	 Colorectal	 Lung	 Melanoma	 Prostate	type
+1	Aurukun			0	0	1	0	1	incidence
+2	Balonne			3	3	1	2	4	incidence
+3	Banana			10	11	7	8	17	incidence
+4	Barcaldine			2	2	4	1	2	incidence
+5	Barcoo			0	1	0	0	0	incidence
+6	Blackall Tambo			4	1	1	0	2	incidence
+7	Boulia			0	0	0	0	0	incidence
+8	Brisbane			708	611	428	740	815	incidence
+9	Bulloo			0	0	0	0	0	incidence
+10	Bundaberg			72	94	68	82	136	incidence
+11	Burdekin			10	14	7	16	24	incidence
+12	Burke			0	0	0	0	0	incidence
+13	Cairns			104	95	71	109	104	incidence
+14	Carpentaria			1	1	1	0	0	incidence
+15	Cassowary Coast			15	24	19	14	26	incidence
+16	Central Highlands			11	10	11	7	18	incidence
+17	Charters Towers			7	10	7	8	15	incidence
+18	Cherbourg			0	0	0	0	0	incidence
+19	Cloncurry			0	2	1	1	3	incidence
+20	Cook			1	2	2	5	2	incidence
+21	Croydon			0	0	0	0	1	incidence
+22	Diamantina			0	0	0	0	0	incidence
+23	Doomadgee			0	0	0	0	0	incidence
+24	Etheridge			0	0	0	0	1	incidence
+25	Flinders			3	0	1	1	3	incidence
+26	Fraser Coast			76	90	81	93	152	incidence
+27	Gladstone			35	34	29	34	58	incidence
+28	Gold Coast			335	356	234	393	459	incidence
+29	Goondiwindi			7	10	5	9	14	incidence
+30	Gympie			37	34	29	33	52	incidence
+31	Hinchinbrook			10	13	10	7	24	incidence
+32	Hope Vale			0	0	0	0	0	incidence
+33	Ipswich			97	92	69	90	135	incidence
+34	Isaac			4	4	5	8	9	incidence
+35	Kowanyama			1	0	1	0	0	incidence
+36	Lockhart River			0	0	1	0	0	incidence
+37	Lockyer Valley			29	20	13	24	32	incidence
+38	Logan			152	141	132	151	178	incidence
+39	Longreach			4	3	3	2	4	incidence
+40	Mackay			66	71	52	63	113	incidence
+41	Mapoon			0	0	0	0	0	incidence
+42	Maranoa			6	10	5	7	12	incidence
+43	McKinlay			1	0	0	0	1	incidence
+44	Moreton Bay			236	243	199	303	340	incidence
+45	Mornington			0	0	0	0	1	incidence
+46	Mount Isa			9	11	10	6	10	incidence
+47	Murweh			1	2	3	1	4	incidence
+48	Napranum			0	0	0	0	0	incidence
+49	North Burnett			9	10	7	12	16	incidence
+50	Northern Peninsula Area			0	0	1	0	0	incidence
+51	Palm Island			1	0	1	0	0	incidence
+52	Paroo			1	1	1	2	2	incidence
+53	Pormpuraaw			0	0	0	0	0	incidence
+54	Quilpie			1	1	0	1	1	incidence
+55	Redland			108	102	66	137	126	incidence
+56	Richmond			0	1	0	0	0	incidence
+57	Rockhampton			70	77	63	65	105	incidence
+58	Scenic Rim			26	31	22	30	34	incidence
+59	Somerset			13	17	11	21	25	incidence
+60	South Burnett			25	28	21	24	25	incidence
+61	Southern Downs			27	29	18	30	35	incidence
+62	Sunshine Coast			270	269	180	272	377	incidence
+63	Tablelands			34	42	24	38	38	incidence
+64	Toowoomba			122	124	67	138	146	incidence
+65	Torres			1	1	1	1	1	incidence
+66	Torres Strait Island			0	1	1	0	0	incidence
+67	Townsville			88	93	73	115	137	incidence
+68	Weipa			2	1	1	2	0	incidence
+69	Western Downs			15	24	15	24	31	incidence
+70	Whitsunday			14	22	15	26	40	incidence
+71	Winton			1	1	1	0	2	incidence
+72	Woorabinda			0	0	0	0	0	incidence
+73	Wujal Wujal			0	0	0	0	0	incidence
+74	Yarrabah			0	1	1	0	0	incidence
+75	Qld Unknown			11	11	21	9	25	incidence
+76	Aurukun			0	0	0	0	0	mortality
+77	Balonne			0	1	1	0	1	mortality
+78	Banana			2	5	4	2	2	mortality
+79	Barcaldine			0	1	3	0	0	mortality
+80	Barcoo			0	0	0	0	0	mortality
+81	Blackall Tambo			0	1	1	0	0	mortality
+82	Boulia			0	0	0	0	0	mortality
+83	Brisbane			113	220	302	74	129	mortality
+84	Bulloo			0	0	0	0	0	mortality
+85	Bundaberg			9	34	50	9	19	mortality
+86	Burdekin			3	7	7	2	5	mortality
+87	Burke			0	0	0	0	0	mortality
+88	Cairns			18	29	54	10	16	mortality
+89	Carpentaria			0	0	1	0	0	mortality
+90	Cassowary Coast			3	11	17	3	5	mortality
+91	Central Highlands			3	3	10	1	2	mortality
+92	Charters Towers			2	2	6	1	1	mortality
+93	Cherbourg			0	0	0	0	0	mortality
+94	Cloncurry			0	1	1	0	0	mortality
+95	Cook			0	2	2	0	2	mortality
+96	Croydon			0	0	0	0	0	mortality
+97	Diamantina			0	0	0	0	0	mortality
+98	Doomadgee			0	0	0	0	0	mortality
+99	Etheridge			0	0	0	0	0	mortality
+100	Flinders			0	0	1	0	1	mortality
+101	Fraser Coast			13	32	60	13	24	mortality
+102	Gladstone			6	10	23	4	8	mortality
+103	Gold Coast			53	107	174	36	81	mortality
+104	Goondiwindi			1	3	4	1	2	mortality
+105	Gympie			5	17	21	6	11	mortality
+106	Hinchinbrook			1	5	7	1	3	mortality
+107	Hope Vale			0	0	0	0	0	mortality
+108	Ipswich			14	33	58	10	11	mortality
+109	Isaac			1	2	3	1	2	mortality
+110	Kowanyama			0	0	0	0	0	mortality
+111	Lockhart River			0	0	0	0	0	mortality
+112	Lockyer Valley			3	10	11	2	2	mortality
+113	Logan			24	39	111	14	24	mortality
+114	Longreach			2	1	3	0	1	mortality
+115	Mackay			10	29	40	8	13	mortality
+116	Mapoon			0	0	0	0	0	mortality
+117	Maranoa			1	3	4	1	2	mortality
+118	McKinlay			0	0	1	0	0	mortality
+119	Moreton Bay			36	81	151	32	41	mortality
+120	Mornington			0	0	0	0	0	mortality
+121	Mount Isa			1	4	10	1	0	mortality
+122	Murweh			0	1	2	0	2	mortality
+123	Napranum			0	0	0	0	0	mortality
+124	North Burnett			1	3	6	2	3	mortality
+125	Northern Peninsula Area			0	0	0	0	0	mortality
+126	Palm Island			1	0	1	0	0	mortality
+127	Paroo			0	0	1	0	1	mortality
+128	Pormpuraaw			0	0	0	0	0	mortality
+129	Quilpie			0	0	0	0	0	mortality
+130	Redland			17	30	49	10	21	mortality
+131	Richmond			0	0	0	0	0	mortality
+132	Rockhampton			18	27	53	12	16	mortality
+133	Scenic Rim			4	11	16	3	5	mortality
+134	Somerset			2	4	10	4	5	mortality
+135	South Burnett			6	11	15	2	7	mortality
+136	Southern Downs			5	10	14	2	6	mortality
+137	Sunshine Coast			39	74	130	31	54	mortality
+138	Tablelands			6	15	17	4	8	mortality
+139	Toowoomba			17	41	59	9	19	mortality
+140	Torres			1	1	1	0	1	mortality
+141	Torres Strait Island			0	1	1	0	0	mortality
+142	Townsville			13	29	58	11	18	mortality
+143	Weipa			0	0	1	0	0	mortality
+144	Western Downs			2	7	12	3	6	mortality
+145	Whitsunday			2	6	12	2	4	mortality
+146	Winton			0	1	1	0	0	mortality
+147	Woorabinda			0	0	0	0	0	mortality
+148	Wujal Wujal			0	0	0	0	0	mortality
+149	Yarrabah			0	0	0	0	0	mortality
+150	Qld Unknown			12	12	27	5	21	mortality

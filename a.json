@@ -1,0 +1,525 @@
+"Aurukun" : {
+  center: {
+    lat: -13.35726,
+    lng: 141.728066
+  },
+  "population": 100
+},
+"Balonne (S)": {
+  center: {
+    lat: -28.46460,
+    lng: 148.189292
+  },
+  "population": 100
+},
+"Banana (S)": {
+  center: {
+    lat: 24.472222,
+    lng: 150.128056
+  },
+  "population": 100
+},
+"Barcaldine (R)": {
+  center: {
+    lat: -23.55632,
+    lng: 145.293339
+  },
+  "population": 100
+},
+"Barcoo (S)": {
+  center: {
+    lat: -25.03122,
+    lng: 142.361338
+  },
+  "population": 100
+},
+"Blackall Tambo (R)": {
+  center: {
+    lat: -24.68263,
+    lng: 145.846805
+  },
+  "population": 100
+},
+"Boulia (S)": {
+  center: {
+    lat: -22.91130,
+    lng: 139.910444
+  },
+  "population": 100
+},
+"Brisbane (C)": {
+  center: {
+    lat: -27.46977,
+    lng: 153.025124
+  },
+  "population": 100
+},
+"Bulloo (S)": {
+  center: {
+    lat: -27.81665,
+    lng: 142.021542
+  },
+  "population": 100
+},
+"Bundaberg (R)": {
+  center: {
+    lat: -24.86669736,
+    lng: 152.350914
+  },
+  "population": 100
+},
+"Burdekin (S)": {
+  center: {
+    lat: -19.52271,
+    lng: 147.462726
+  },
+  "population": 100
+},
+"Burke (S)": {
+  center: {
+    lat: 32.86333,
+    lng: -97.180088
+  },
+  "population": 100
+},
+"Cairns (R)": {
+  center: {
+    lat: 37.4332,
+    lng: -94.263841
+  },
+  "population": 100
+},
+"Carpentaria (S)": {
+  center: {
+    lat: -13.18404,
+    lng: 139.132198
+  },
+  "population": 100
+},
+"Cassowary Coast (R)": {
+  center: {
+    lat: -17.97393,
+    lng: 146.382423
+  },
+  "population": 100
+},
+"Central Highlands (R)": {
+  center: {
+    lat: -24.03304,
+    lng: 148.737363
+  },
+  "population": 100
+},
+"Charters Towers (R)": {
+  center: {
+    lat: -20.07696,
+    lng: 146.260136
+  },
+  "population": 100
+},
+"Cherbourg (S)": {
+  center: {
+    lat: 49.63373,
+    lng: -1.622137
+  },
+  "population": 100
+},
+"Cloncurry (S)": {
+  center: {
+    lat: -20.70639,
+    lng: 140.509326
+  },
+  "population": 100
+},
+"Cook (S)": {
+  center: {
+    lat: 37.523,
+    lng: -95.6624
+  },
+  "population": 100
+},
+"Croydon (S)": {
+  center: {
+    lat: -18.20607,
+    lng: 142.243573
+  },
+  "population": 100
+},
+"Diamantina (S)": {
+  center: {
+    lat: -24.84262,
+    lng: 139.691137
+  },
+  "population": 100
+},
+"Doomadgee (S)": {
+  center: {
+    lat: -17.94077,
+    lng: 138.82695
+  },
+  "population": 100
+},
+"Etheridge (S)": {
+  center: {
+    lat: 34.20902,
+    lng: -92.028933
+  },
+  "population": 100
+},
+"Flinders (S)": {
+  center: {
+    lat: -37.81866,
+    lng: 144.14
+  },
+  "population": 100
+},
+"Fraser Coast (R)": {
+  center: {
+    lat: -25.48847,
+    lng: 152.732388
+  },
+  "population": 100
+},
+"Gladstone (R)": {
+  center: {
+    lat: 45.38429,
+    lng: -122.59731
+  },
+  "population": 100
+},
+"Gold Coast (C)": {
+  center: {
+    lat: 33.02329,
+    lng: -117.282949
+  },
+  "population": 100
+},
+"Goondiwindi (R)": {
+  center: {
+    lat: -28.53870,
+    lng: 150.298288
+  },
+  "population": 100
+},
+"Gympie (R)": {
+  center: {
+    lat: -26.19428,
+    lng: 152.67327
+  },
+  "population": 100
+},
+"Hinchinbrook (S)": {
+  center: {
+    lat: -18.3362,
+    lng: 146.225881
+  },
+  "population": 100
+},
+"Hope Vale (S)": {
+  center: {
+    lat: -15.29419,
+    lng: 145.108237
+  },
+  "population": 100
+},
+"Ipswich (C)": {
+  center: {
+    lat: 4.7147,
+    lng: -70.845223
+  },
+  "population": 100
+},
+"Isaac (R)": {
+  center: {
+    lat: 39.59247,
+    lng: -104.888444
+  },
+  "population": 100
+},
+"Kowanyama (S)": {
+  center: {
+    lat: -15.36677,
+    lng: 141.767797
+  },
+  "population": 100
+},
+"Lockhart River (S)": {
+  center: {
+    lat: -12.78454,
+    lng: 143.343015
+  },
+  "population": 100
+},
+"Lockyer Valley (R)": {
+  center: {
+    lat: -27.62784,
+    lng: 152.168857
+  },
+  "population": 100
+},
+"Logan (C)": {
+  center: {
+    lat: 42.36695,
+    lng: -71.017562
+  },
+  "population": 100
+},
+"Longreach (R)": {
+  center: {
+    lat: -23.44219,
+    lng: 144.255504
+  },
+  "population": 100
+},
+"Mackay (R)": {
+  center: {
+    lat: 43.78591,
+    lng: -80.137276
+  },
+  "population": 100
+},
+"Mapoon (S)": {
+  center: {
+    lat: -11.86318,
+    lng: 142.183069
+  },
+  "population": 100
+},
+"Maranoa (R)": {
+  center: {
+    lat: -26.57120,
+    lng: 148.007192
+  },
+  "population": 100
+},
+"McKinlay (S)": {
+  center: {
+    lat: -45.895,
+    lng: 170.498852
+  },
+  "population": 100
+},
+"Moreton Bay (R)": {
+  center: {
+    lat: -27.09460,
+    lng: 152.920592
+  },
+  "population": 100
+},
+"Mornington (S)": {
+  center: {
+    lat: -38.22,
+    lng: 145.062
+  },
+  "population": 100
+},
+"Mount Isa (C)": {
+  center: {
+    lat: -20.72527,
+    lng: 13.91403
+  },
+  "population": 100
+},
+"Murweh (S)": {
+  center: {
+    lat: -2.149,
+    lng: 146.561647
+  },
+  "population": 100
+},
+"Napranum (S)": {
+  center: {
+    lat: -12.4661,
+    lng: 141.148769
+  },
+  "population": 100
+},
+"North Burnett (R)": {
+  center: {
+    lat: -25.41958,
+    lng: 141.14032
+  },
+  "population": 100
+},
+"Northern Peninsula Area (R)": {
+  center: {
+    lat: -10.98066,
+    lng: 142.318772
+  },
+  "population": 100
+},
+"Palm Island (S)": {
+  center: {
+    lat: 25.00323,
+    lng: 55.020402
+  },
+  "population": 100
+},
+"Paroo (S)": {
+  center: {
+    lat: -27.99693,
+    lng: 145.846805
+  },
+  "population": 100
+},
+"Pormpuraaw (S)": {
+  center: {
+    "lan": -14.90004,
+    lng: 141.620242
+  },
+  "population": 100
+},
+"Quilpie (S)": {
+  center: {
+    lat: -26.616667,
+    lng: 144.266667
+  },
+  "population": 100
+},
+"Redland (C)": {
+  center: {
+    lat: 34.055569,
+    lng: -117.182538
+  },
+  "population": 100
+},
+"Richmond (S)": {
+  center: {
+    lat: 37.540725,
+    lng: -77.436048
+  },
+  "population": 100
+},
+"Rockhampton (R)": {
+  center: {
+    lat: -23.37850,
+    lng: 150.503634
+  },
+  "population": 100
+},
+"Scenic Rim (R)": {
+  center: {
+    lat: -28.09462,
+    lng: 152.732388
+  },
+  "population": 100
+},
+"Somerset (R)": {
+  center: {
+    lat: 51.20622,
+    lng: -3.46754
+  },
+  "population": 100
+},
+"South Burnett (R)": {
+  center: {
+    lat: -26.47021,
+    lng: 151.607058
+  },
+  "population": 100
+},
+"Southern Downs (R)": {
+  center: {
+    lat: -28.2754,
+    lng: 151.981391
+  },
+  "population": 100
+},
+"Sunshine Coast (R)": {
+  center: {
+    lat: -26.6,
+    lng: 153.066667
+  },
+  "population": 100
+},
+"Tablelands (R)": {
+  center: {
+    lat: 0,
+    lng: 0
+  },
+  "population": 100
+},
+"Toowoomba (R)": {
+  center: {
+    lat: -27.55982,
+    lng: 151.95067
+  },
+  "population": 100
+},
+"Torres (S)": {
+  center: {
+    lat: -10.59470,
+    lng: 143.045893
+  },
+  "population": 100
+},
+"Torres Strait Island (R)": {
+  center: {
+    lat: -9.98155,
+    lng: 142.555218
+  },
+  "population": 100
+},
+"Townsville (C)": {
+  center: {
+    lat: -19.24931,
+    lng: 146.815373
+  },
+  "population": 100
+},
+"Weipa (T)": {
+  center: {
+    lat: -12.64929,
+    lng: 141.84699
+  },
+  "population": 100
+},
+"Western Downs (R)": {
+  center: {
+    lat: -27.10241,
+    lng: 150.211075
+  },
+  "population": 100
+},
+"Whitsunday (R)": {
+  center: {
+    lat: -20.34410,
+    lng: 148.189292
+  },
+  "population": 100
+},
+"Winton (S)": {
+  center: {
+    lat: 27.82852,
+    lng: -97.066167
+  },
+  "population": 100
+},
+"Woorabinda (S)": {
+  center: {
+    lat: -24.13265,
+    lng: 149.456709
+  },
+  "population": 100
+},
+"Wujal Wujal (S)": {
+  center: {
+    lat: -15.94312,
+    lng: 145.320592
+  },
+  "population": 100
+},
+"Yarrabah (S)": {
+  center: {
+    lat: -16.9280,
+    lng: 145.872016
+  },
+  "population": 100
+},
+"Qld Unknown": {
+  center: {
+    lat: -20.91757,
+    lng: 142.702796
+  },
+  "population": 100
+}

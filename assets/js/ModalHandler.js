@@ -22,7 +22,7 @@ class ModalHandler{
     var instance = that;
     let modalClassObj = document.querySelector(that.modalClass);
     if(modalClassObj){
-          modalClassObj.classList.add(that.openClass);
+      modalClassObj.classList.add(that.openClass);
     }
 
     this.modalClose(this);
@@ -31,26 +31,19 @@ class ModalHandler{
   modalClose(that){
     var instance = that;
     let modalClassObj = document.querySelector(that.modalClass);
-    if(modalClassObj){
-      //close on btn
-      let modalCloseBtn = document.querySelector(that.modalCloseBtn);
-      modalCloseBtn.addEventListener('click', function (e) {
+
+    //close on outside click
+    modalClassObj.addEventListener('click', function (e) {
+      // console.log("in");
+      let element = e.target;
+      let parentElement = element.parentNode;
+      let grandParentElement = parentElement.parentNode;
+      if(!element.classList.contains('modal__wrap') && !parentElement.classList.contains('modal__wrap') && !grandParentElement.classList.contains('modal__wrap')){
         modalClassObj.classList.remove(that.openClass);
         // console.log("done");
-      });
-
-      //close on outside click
-      modalClassObj.addEventListener('click', function (e) {
-        // console.log("in");
-        let element = e.target;
-        let parentElement = element.parentNode;
-        let grandParentElement = parentElement.parentNode;
-        if(!element.classList.contains('modal__wrap') && !parentElement.classList.contains('modal__wrap') && !grandParentElement.classList.contains('modal__wrap')){
-          modalClassObj.classList.remove(that.openClass);
-          // console.log("done");
-        }
-      });
-    }
+      }
+    });
   }
+
 
 };

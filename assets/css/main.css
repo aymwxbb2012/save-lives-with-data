@@ -1,6 +1,9 @@
 body {
   background-color: #FFFFFF;
 }
+svg:not(:root) {
+    overflow: visible;
+}
 
 .main.container {
   margin-top: 2em;

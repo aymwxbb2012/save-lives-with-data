@@ -107,7 +107,6 @@
   </div>
 
   <div class="ui text container" id="all">
-    <br><br><br>
     <article>
       <h2 class="ui header">Compilation of common cancers</h2>
       
@@ -245,13 +244,13 @@
             .append("g")
             .attr("transform", "translate(0,0)");
 
-    var radiusScale1 = d3.scaleSqrt().domain([470, 3165]).range([10, 90])
+    var radiusScale1 = d3.scaleSqrt().domain([332, 3879]).range([10, 90])
  
     var simulation1 = d3.forceSimulation()
       .force("x", d3.forceX(width1 / 2).strength(0.05))
       .force("y", d3.forceY(width1 / 2).strength(0.05))
       .force("collade", d3.forceCollide(function(d1) {
-        return radiusScale(d1.count) + 1;
+        return radiusScale1(d1.count) + 1;
       }));
 
     d3.queue()
@@ -259,17 +258,17 @@
       .await(readyTypes);
 
   function readyTypes(error, datapoints1) {
-      var bubbles1 = svg.selectAll(".artist")
+      var bubbles1 = svg1.selectAll(".artist")
           .data(datapoints1)
           .enter().append("circle")
           .attr("class", "artist")
           .attr("r", function(d1){
-            return radiusScale(d1.count)
+            return radiusScale1(d1.count)
           })
           .attr("fill", function(d1){
             return d1.color
           })
-          .attr("stroke", function(d){
+          .attr("stroke", function(d1){
             if(d1.type == "incidence")
             return "#000"
             else 
